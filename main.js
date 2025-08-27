@@ -65,7 +65,7 @@ document.getElementById('call-btn-2').addEventListener('click', function(){
     document.getElementById('coin').innerText = coinMynas
 
     const history = {
-        name: 'জাতীয় জরুরি সেবা',
+        name: 'পুলিশ',
         pName: '999', 
         date: new Date().toLocaleTimeString()
     }
@@ -111,7 +111,7 @@ document.getElementById('call-btn-3').addEventListener('click', function(){
     document.getElementById('coin').innerText = coinMynas
 
     const history = {
-        name: 'জাতীয় জরুরি সেবা',
+        name: 'ফায়ার সার্ভিস',
         pName: '999', 
         date: new Date().toLocaleTimeString()
     }
