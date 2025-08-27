@@ -24,7 +24,7 @@
         </div>
         <div class="flex gap-4 justify-between items-center">
             <div>
-                <button class="btn rounded-full"><span class="text-lg font-bold">0</span><img class="h-[30px] w-[30px]" src="./assets/heart.png" alt=""></button>
+                <button class="btn rounded-full"><span id="love-btn" class="text-lg font-bold">0</span><img class="h-[30px] w-[30px]" src="./assets/heart.png" alt=""></button>
             </div>
             <div>
                 <button class="btn rounded-full"><span class="font-bold text-lg">100</span><img  class="h-[30px] w-[30px]" src="./assets/coin.png" alt=""></button>
@@ -58,7 +58,7 @@
              <div class="p-[25px]  shadow-2xl rounded-xl w-full h-full bg-white">
                 <ul class="flex justify-between items-center mb-2">
                     <li class=" p-2 rounded-xl bg-[#ffe3e2]"><img class="w-[32px] h-[32px] " src="./assets/emergency.png" alt=""></li>
-                    <li class="cursor-pointer"><i class="fa-regular fa-heart h-6 w-6"></i></li>
+                    <li class="cursor-pointer"><i id="love1" class="fa-regular fa-heart h-6 w-6"></i></li>
                 </ul>
                 <ul class="flex flex-col gap-3 mb-4">
                     <li class="text-[24px] font-bold">জাতীয় জরুরি সেবা</li>
@@ -82,7 +82,7 @@
              <div class="p-[25px]   shadow-2xl rounded-xl w-full h-full bg-white">
                 <ul class="flex justify-between items-center mb-2">
                     <li class=" p-2 rounded-xl bg-[#ffe3e2]"><img class="w-[32px] h-[32px] " src="./assets/police.png" alt=""></li>
-                    <li class="cursor-pointer"><i class="fa-regular fa-heart h-6 w-6"></i></li>
+                    <li class="cursor-pointer"><i id="love2" class="fa-regular fa-heart h-6 w-6"></i></li>
                 </ul>
                 <ul class="flex flex-col gap-3 mb-4">
                     <li class="text-[24px] font-bold">পুলিশ</li>
@@ -106,7 +106,7 @@
              <div class="p-[25px]  shadow-2xl rounded-xl w-full h-full bg-white">
                 <ul class="flex justify-between items-center mb-2">
                     <li class=" p-2 rounded-xl bg-[#ffe3e2]"><img class="w-[32px] h-[32px] " src="./assets/emergency.png" alt=""></li>
-                    <li class="cursor-pointer"><i class="fa-regular fa-heart h-6 w-6"></i></li>
+                    <li class="cursor-pointer"><i id="love3" class="fa-regular fa-heart h-6 w-6"></i></li>
                 </ul>
                 <ul class="flex flex-col gap-3 mb-4">
                     <li class="text-[24px] font-bold">ফায়ার সার্ভিস</li>
@@ -130,7 +130,7 @@
              <div class="p-[25px]  shadow-2xl rounded-xl w-full h-full bg-white">
                 <ul class="flex justify-between items-center mb-2">
                     <li class=" p-2 rounded-xl bg-[#ffe3e2]"><img class="w-[32px] h-[32px] " src="./assets/ambulance.png" alt=""></li>
-                    <li class="cursor-pointer"><i class="fa-regular fa-heart h-6 w-6"></i></li>
+                    <li class="cursor-pointer"><i id="love4" class="fa-regular fa-heart h-6 w-6"></i></li>
                 </ul>
                 <ul class="flex flex-col gap-3 mb-4">
                     <li class="text-[24px] font-bold">অ্যাম্বুলেন্স</li>
@@ -154,7 +154,7 @@
              <div class="p-[25px]  shadow-2xl rounded-xl w-full h-full bg-white">
                 <ul class="flex justify-between items-center mb-2">
                     <li class=" p-2 rounded-xl bg-[#ffe3e2]"><img class="w-[32px] h-[32px] " src="./assets/emergency.png" alt=""></li>
-                    <li class="cursor-pointer"><i class="fa-regular fa-heart h-6 w-6"></i></li>
+                    <li class="cursor-pointer"><i id="love5" class="fa-regular fa-heart h-6 w-6"></i></li>
                 </ul>
                 <ul class="flex flex-col gap-3 mb-4">
                     <li class="text-[24px] font-bold">নারী ও শিশু সহায়তা</li>
@@ -178,7 +178,7 @@
              <div class="p-[25px]  shadow-2xl rounded-xl w-full h-full bg-white">
                 <ul class="flex justify-between items-center mb-2">
                     <li class=" p-2 rounded-xl bg-[#ffe3e2]"><img class="w-[32px] h-[32px] " src="./assets/emergency.png" alt=""></li>
-                    <li class="cursor-pointer"><i class="fa-regular fa-heart h-6 w-6"></i></li>
+                    <li class="cursor-pointer"><i id="love6" class="fa-regular fa-heart h-6 w-6"></i></li>
                 </ul>
                 <ul class="flex flex-col gap-3 mb-4">
                     <li class="text-[24px] font-bold">দুদক</li>
@@ -202,7 +202,7 @@
              <div class="p-[25px]  shadow-2xl rounded-xl w-full h-full bg-white">
                 <ul class="flex justify-between items-center mb-2">
                     <li class=" p-2 rounded-xl bg-[#ffe3e2]"><img class="w-[32px] h-[32px] " src="./assets/emergency.png" alt=""></li>
-                    <li class="cursor-pointer"><i class="fa-regular fa-heart h-6 w-6"></i></li>
+                    <li class="cursor-pointer"><i id="love7" class="fa-regular fa-heart h-6 w-6"></i></li>
                 </ul>
                 <ul class="flex flex-col gap-3 mb-4">
                     <li class="text-[24px] font-bold">বিদ্যুৎ বিভ্রাট</li>
@@ -226,7 +226,7 @@
              <div class="p-[25px]  shadow-2xl rounded-xl w-full h-full bg-white">
                 <ul class="flex justify-between items-center mb-2">
                     <li class=" p-2 rounded-xl bg-[#ffe3e2]"><img class="w-[32px] h-[32px] " src="./assets/emergency.png" alt=""></li>
-                    <li class="cursor-pointer"><i class="fa-regular fa-heart h-6 w-6"></i></li>
+                    <li class="cursor-pointer"><i id="love8" class="fa-regular fa-heart h-6 w-6"></i></li>
                 </ul>
                 <ul class="flex flex-col gap-3 mb-4">
                     <li class="text-[24px] font-bold">ব্র্যাক</li>
@@ -250,7 +250,7 @@
              <div class="p-[25px]   shadow-2xl rounded-xl w-full h-full bg-white">
                 <ul class="flex justify-between items-center mb-2">
                     <li class=" p-2 rounded-xl bg-[#ffe3e2]"><img class="w-[32px] h-[32px] " src="./assets/emergency.png" alt=""></li>
-                    <li class="cursor-pointer"><i class="fa-regular fa-heart h-6 w-6"></i></li>
+                    <li class="cursor-pointer"><i id="love9" class="fa-regular fa-heart h-6 w-6"></i></li>
                 </ul>
                 <ul class="flex flex-col gap-3 mb-4">
                     <li class="text-[24px] font-bold">বাংলাদেশ রেলওয়ে</li>
@@ -301,5 +301,6 @@
 
 
      <script src="./coppy.js"></script>
+     <script src="./love.js"></script>
 </body>
 </html>
