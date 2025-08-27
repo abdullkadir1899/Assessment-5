@@ -369,6 +369,9 @@ document.getElementById('call-btn-8').addEventListener('click', function(){
 
 
 // call-btn-9
+
+
+
 document.getElementById('call-btn-9').addEventListener('click', function(){
         const coin = parseInt(document.getElementById('coin').innerText)
     
@@ -411,4 +414,17 @@ document.getElementById('call-btn-9').addEventListener('click', function(){
         `
         historyContainer.appendChild(div)
     }
+})
+
+
+
+
+
+
+// clear > button 
+document.getElementById('clear').addEventListener('click', function(){
+    document.getElementById('history-container').innerHTML = ''
+
+
+    callHistoryData.length = 0
 })
