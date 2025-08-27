@@ -16,7 +16,7 @@
     <div class="flex   py-[24px] px-[60px] p justify-between items-center">
         <div class="flex justify-between gap-4 items-center">
             <div class="flex ">
-                <img class="w-[50px] h-[50px] animate-pulse" src="./assets/logo.png" alt="">
+                <img class="w-[50px] h-[50px] " src="./assets/logo.png" alt="">
             </div>
             <div>
                 <h1 class="text-[#006747] text-lg font-bold">Emergency <br> Service </h1>
@@ -24,10 +24,10 @@
         </div>
         <div class="flex gap-4 justify-between items-center">
             <div>
-                <button class="btn rounded-full"><span id="love-btn" class="text-lg font-bold">0</span><img class="h-[30px] w-[30px]" src="./assets/heart.png" alt=""></button>
+                <button class="btn rounded-full"><span id="love-btn" class="text-lg font-bold">0</span><img class="h-[30px] w-[30px] animate-pulse" src="./assets/heart.png" alt=""></button>
             </div>
             <div>
-                <button class="btn rounded-full"><span class="font-bold text-lg">100</span><img  class="h-[30px] w-[30px]" src="./assets/coin.png" alt=""></button>
+                <button class="btn rounded-full"><span id="coin" class="font-bold text-lg">100</span><img  class="h-[30px] w-[30px]" src="./assets/coin.png" alt=""></button>
             </div>
             <div>
                 <button class="btn  bg-[#00a63e] text-white rounded-full "><span id="copy-btn">0</span>Copy</button>
@@ -58,7 +58,7 @@
              <div class="p-[25px]  shadow-2xl rounded-xl w-full h-full bg-white">
                 <ul class="flex justify-between items-center mb-2">
                     <li class=" p-2 rounded-xl bg-[#ffe3e2]"><img class="w-[32px] h-[32px] " src="./assets/emergency.png" alt=""></li>
-                    <li class="cursor-pointer"><i id="love1" class="fa-regular fa-heart h-6 w-6"></i></li>
+                    <li class="cursor-pointer "><i id="love1" class="fa-regular fa-heart  text-2xl "></i></li>
                 </ul>
                 <ul class="flex flex-col gap-3 mb-4">
                     <li class="text-[24px] font-bold">জাতীয় জরুরি সেবা</li>
@@ -73,7 +73,7 @@
                         <button id="copy-btn-1-click" class="btn w-full rounded-2xl"><i class="fa-regular fa-copy"></i> Copy</button>
                     </div>
                     <div class="w-full">
-                        <li class="btn w-full bg-[#00a63e] rounded-2xl"><i class="fa-solid fa-phone"></i>Call</li>
+                        <button id="call-btn-1" class="btn w-full bg-[#00a63e] rounded-2xl"><i class="fa-solid fa-phone"></i>Call</button>
                     </div>
                 </div>
              </div>
@@ -82,7 +82,7 @@
              <div class="p-[25px]   shadow-2xl rounded-xl w-full h-full bg-white">
                 <ul class="flex justify-between items-center mb-2">
                     <li class=" p-2 rounded-xl bg-[#ffe3e2]"><img class="w-[32px] h-[32px] " src="./assets/police.png" alt=""></li>
-                    <li class="cursor-pointer"><i id="love2" class="fa-regular fa-heart h-6 w-6"></i></li>
+                    <li class="cursor-pointer"><i id="love2" class="fa-regular fa-heart h-6 w-6 text-2xl"></i></li>
                 </ul>
                 <ul class="flex flex-col gap-3 mb-4">
                     <li class="text-[24px] font-bold">পুলিশ</li>
@@ -106,7 +106,7 @@
              <div class="p-[25px]  shadow-2xl rounded-xl w-full h-full bg-white">
                 <ul class="flex justify-between items-center mb-2">
                     <li class=" p-2 rounded-xl bg-[#ffe3e2]"><img class="w-[32px] h-[32px] " src="./assets/emergency.png" alt=""></li>
-                    <li class="cursor-pointer"><i id="love3" class="fa-regular fa-heart h-6 w-6"></i></li>
+                    <li class="cursor-pointer"><i id="love3" class="fa-regular fa-heart h-6 w-6 text-2xl"></i></li>
                 </ul>
                 <ul class="flex flex-col gap-3 mb-4">
                     <li class="text-[24px] font-bold">ফায়ার সার্ভিস</li>
@@ -279,21 +279,13 @@
 
 
         <!-- div 2 -->
-        <div class="w-[500px] h-[1140px] p-5 rounded-2xl  shadow-2xl bg-white">
+        <div id="history-container" class="w-[500px] h-[1140px] p-5 rounded-2xl  shadow-2xl bg-white">
             <ul class="flex justify-between items-center">
                 <li class="text-xl font-bold text-[]"><i class="fa-solid fa-clock"></i> Call History</li>
                 <li><button class="btn bg-[#00a63e] rounded-full text-white">Clear</button></li>
             </ul>
 
-            <div class="flex  justify-between items-center p-4 mt-4 rounded-xl bg-white shadow-xl">
-                <div>
-                    <h1>জাতীয় জরুরি সেবা</h1>
-                    <p>999</p>
-                </div>
-                <div>
-                    <p>11:36:58</p>
-                </div>
-            </div>
+            
         </div>
      </div>
 
@@ -302,5 +294,6 @@
 
      <script src="./coppy.js"></script>
      <script src="./love.js"></script>
+     <script src="./main.js"></script>
 </body>
 </html>
